@@ -2,12 +2,12 @@
   <div class="login_main">
     <h2 class="login_title">新規登録</h2>
 
-    <%= form_with model: resource, as: resource_name, url: session_path(resource_name), local: true do |f|%>
+    <%= form_with model: @user, url: user_registration_path, local: true do |f|%>
       <%= render "devise/shared/error_messages", resource: resource %>
 
       <div class="login_form">
         <p class="sign_up_label_name">【名前（ニックネーム）】<span class="login_label_span">※必須</span></p>
-        <%= f.email_field :name, autofocus: true, autocomplete: "email", class: "login_field" %>
+        <%= f.text_field :name, autofocus: true, class: "login_field" %>
       </div>
 
       <div class="login_form">
