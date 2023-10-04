@@ -1,0 +1,65 @@
+/*****
+ログインページのCSS設定
+*****/
+
+.login_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkorange;; /*仮の背景色*/
+}
+
+.login_main {
+  background-color: bisque; /*仮の背景色*/
+  border-radius: 10px;
+  height: 420px;
+  width: 380px;
+}
+
+.login_title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.login_form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login_label_mail {
+  margin: 0 70px 10px 0;
+  font-size: 18px;
+}
+
+.login_label_password {
+  margin: 0 105px 10px 0;
+  font-size: 18px;
+}
+
+.login_label_span {
+  font-size: 12px;
+  color: red;
+}
+
+.login_field {
+  width: 235px;
+  height: 35px;
+}
+
+.login_submit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login_btn {
+  width: 140px;
+  height: 45px;
+  color: white;
+  background-color: coral;
+  border: none;
+}
+
+
