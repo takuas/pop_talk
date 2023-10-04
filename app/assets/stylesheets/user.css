@@ -1,5 +1,5 @@
 /*****
-ログインページのCSS設定
+ログインページのCSS設定（新規登録ページと共用）
 *****/
 
 .login_page{
@@ -14,7 +14,6 @@
 .login_main {
   background-color: bisque; /*仮の背景色*/
   border-radius: 10px;
-  height: 420px;
   width: 380px;
 }
 
@@ -60,6 +59,26 @@
   color: white;
   background-color: coral;
   border: none;
+  margin-bottom: 30px;
 }
 
+/******
+新規登録ページ
+******/
 
+.sign_up_main {
+  background-color: bisque; /*仮の背景色*/
+  border-radius: 10px;
+  height: auto;
+  width: 380px;
+}
+
+.sign_up_label_name {
+  margin: 0 15px 10px 0;
+  font-size: 18px;
+}
+
+.sign_up_label_pass_confirmation {
+  margin: 0 55px 10px 0;
+  font-size: 18px;
+}
